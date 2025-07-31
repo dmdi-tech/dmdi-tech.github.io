@@ -8,7 +8,7 @@ const achievements = [
         date: "June 18 - 20, 2025",
         description: "Collaborated with a team of 5 to develop a Python and React based web app during a 48-hour hackathon.",
         tech: ["Python", "SQL Alchemy", "FastAPI", "Git"],
-        picture: "/assets/includedreamers.jpg",
+        picture: "./portfolio/assets/includedreamers.jpg",
         github: "", // optional github link
         demo: "", // optional live link 
     },
@@ -29,7 +29,7 @@ function Achievements() {
                         {/* event status */}
                         <p>Placed: {event.status}</p>
 
-                        <img src={event.picture} alt="Project Picture" width={250} height={31}></img>
+                        <Image src={event.picture} alt="Project Picture" width={250} height={31} />
                         
                         {/* event description*/}
                         <p className="text-zinc-900">{event.description}</p>

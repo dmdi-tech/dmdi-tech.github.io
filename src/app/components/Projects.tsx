@@ -7,7 +7,7 @@ const projects = [
         title: "BlueSky Personalized Feed Anaylsis",
         description: "Collaborated with a team of 8 to develop a Python-based web application that retrieves and summarizes BlueSky's data.",
         tech: ["Python", "Git", "AT Proto", "Agile"],
-        picture: "/assets/feedanalysis.jpeg",
+        picture: "./portfolio/assets/feedanalysis.jpeg",
         github: "", // optional github link
         demo: "", // optional live link 
     },
@@ -17,7 +17,7 @@ const projects = [
         title: "Video Game Collection",
         description: "Developed a video game collection web application that uses FastAPI and SQLite to store and retrieve user's video game collection.",
         tech: ["Python", "FastAPI", "Git", "SQLite"],
-        picture: "/assets/frontend.jpg",
+        picture: "./portfolio/assets/frontend.jpg",
         github: "", // optional github link
         demo: "", // optional live link 
     },
@@ -37,7 +37,7 @@ function Projects() {
                         {/* project title*/}
                         <h3 className="text-zinc-900 text-base md:text-lg font-semibold leading-tight text-center">{project.title}</h3>
                         
-                        <img src={project.picture} alt="Project Picture" width={250} height={31}></img>
+                        <Image src={project.picture} alt="Project Picture" width={250} height={31} />
 
                         {/* project description*/}
                         <p className="text-zinc-900">{project.description}</p>
