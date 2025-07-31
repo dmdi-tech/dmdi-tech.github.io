@@ -1,11 +1,12 @@
 {
   "name": "my-project",
   "version": "0.1.0",
-  "homepage":"https://dmdi-tech.github.io/portfolio",
+  "homepage":"https://dmdi-tech.github.io/portfolio/",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build", 
+    "build": "next build",
+    "export": "next export", 
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
