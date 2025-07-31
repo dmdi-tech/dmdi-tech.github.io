@@ -7,7 +7,7 @@ function Intro() {
             <div >
                 {/* avatar */}
                 <div> 
-                    <Image src="/assets/avatar.jpg" alt="avatar" width={500} height={500} className="w-34 h-34 rounded-full object-cover" />
+                    <img src="/assets/avatar.jpg" alt="avatar" width={500} height={500} className="w-34 h-34 rounded-full object-cover"></img>
                 </div>
 
                 {/* intro */}

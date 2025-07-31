@@ -37,7 +37,7 @@ function Projects() {
                         {/* project title*/}
                         <h3 className="text-zinc-900 text-base md:text-lg font-semibold leading-tight text-center">{project.title}</h3>
                         
-                        <Image src={project.picture} alt="Project Picture" width={250} height={31}></Image>
+                        <img src={project.picture} alt="Project Picture" width={250} height={31}></img>
 
                         {/* project description*/}
                         <p className="text-zinc-900">{project.description}</p>
