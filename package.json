@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "version": "0.1.0",
-  "homepage":"https://dmdi-tech.github.io/portfolio/",
+  "homepage":"https://dmdi-tech.github.io/",
   "private": true,
   "scripts": {
     "dev": "next dev",
