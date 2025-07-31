@@ -29,7 +29,7 @@ function Achievements() {
                         {/* event status */}
                         <p>Placed: {event.status}</p>
 
-                        <Image src={event.picture} alt="Project Picture" width={250} height={31}></Image>
+                        <img src={event.picture} alt="Project Picture" width={250} height={31}></img>
                         
                         {/* event description*/}
                         <p className="text-zinc-900">{event.description}</p>

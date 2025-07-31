@@ -7,7 +7,7 @@ function Intro() {
             <div >
                 {/* avatar */}
                 <div> 
-                    <Image src="/assets/avatar.jpg" alt="avatar" width={500} height={500} className="w-34 h-34 rounded-full object-cover" />
+                    <img src="/assets/avatar.jpg" alt="avatar" width={500} height={500} className="w-34 h-34 rounded-full object-cover"></img>
                 </div>
 
                 {/* intro */}
@@ -27,11 +27,11 @@ function Intro() {
                 {/* contact */}
                 <div className="flex gap-3 mt-4">
                     <a href="https://github.com/dmdi-tech" target="_blank">
-                        <Image src="/assets/github.gif" width={500} height={500} alt="github_button" className="w-[88px] h-[31px]" />
+                        <img src="/assets/github.gif" width={500} height={500} alt="github_button" className="w-[88px] h-[31px]"></img>
                     </a>
 
                     <a href="https://www.linkedin.com/in/dianamedinamoreno/" target="_blank">
-                        <Image src="/assets/linkedin.gif" width={500} height={500} alt="github_button" className="w-[88px] h-[31px]" />
+                        <img src="/assets/linkedin.gif" width={500} height={500} alt="github_button" className="w-[88px] h-[31px]"></img>
                     </a>
                 </div>                
             </div>
