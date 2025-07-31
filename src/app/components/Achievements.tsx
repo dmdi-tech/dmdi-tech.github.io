@@ -8,7 +8,7 @@ const achievements = [
         date: "June 18 - 20, 2025",
         description: "Collaborated with a team of 5 to develop a Python and React based web app during a 48-hour hackathon.",
         tech: ["Python", "SQL Alchemy", "FastAPI", "Git"],
-        picture: "./assets/includedreamers.jpg",
+        picture: "main/assets/includedreamers.jpg",
         github: "", // optional github link
         demo: "", // optional live link 
     },

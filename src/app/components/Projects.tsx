@@ -7,7 +7,7 @@ const projects = [
         title: "BlueSky Personalized Feed Anaylsis",
         description: "Collaborated with a team of 8 to develop a Python-based web application that retrieves and summarizes BlueSky's data.",
         tech: ["Python", "Git", "AT Proto", "Agile"],
-        picture: "./assets/feedanalysis.jpeg",
+        picture: "main/assets/feedanalysis.jpeg",
         github: "", // optional github link
         demo: "", // optional live link 
     },
@@ -17,7 +17,7 @@ const projects = [
         title: "Video Game Collection",
         description: "Developed a video game collection web application that uses FastAPI and SQLite to store and retrieve user's video game collection.",
         tech: ["Python", "FastAPI", "Git", "SQLite"],
-        picture: "./assets/frontend.jpg",
+        picture: "main/assets/frontend.jpg",
         github: "", // optional github link
         demo: "", // optional live link 
     },
